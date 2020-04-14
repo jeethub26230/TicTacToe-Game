@@ -2,14 +2,13 @@ from tkinter import *
 from tkinter.font import Font
 from tkinter import messagebox
 
+#Global Variables
 ActivePlayer = 1
 p1 = [] #P1 Selection
 p2 = [] #P2 Selection
 count = 0
 
 def Game():
-    #Global Variables
-
     box = Tk()
     box.title('TicTacToe! : Player 1')
     # Buttons
